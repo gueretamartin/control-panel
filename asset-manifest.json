@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c40ba27.chunk.css",
-    "main.js": "/static/js/main.f1607b4a.chunk.js",
-    "main.js.map": "/static/js/main.f1607b4a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4e611aee.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4e611aee.js.map",
-    "static/css/2.7f5b6dec.chunk.css": "/static/css/2.7f5b6dec.chunk.css",
-    "static/js/2.ca89fbc5.chunk.js": "/static/js/2.ca89fbc5.chunk.js",
-    "static/js/2.ca89fbc5.chunk.js.map": "/static/js/2.ca89fbc5.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.f5fc97be855ed9a9f1f08477b4011d25.js": "/precache-manifest.f5fc97be855ed9a9f1f08477b4011d25.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.7f5b6dec.chunk.css.map": "/static/css/2.7f5b6dec.chunk.css.map",
-    "static/css/main.1c40ba27.chunk.css.map": "/static/css/main.1c40ba27.chunk.css.map",
-    "static/js/2.ca89fbc5.chunk.js.LICENSE.txt": "/static/js/2.ca89fbc5.chunk.js.LICENSE.txt"
+    "main.css": "/control-panel/static/css/main.1c40ba27.chunk.css",
+    "main.js": "/control-panel/static/js/main.b5890384.chunk.js",
+    "main.js.map": "/control-panel/static/js/main.b5890384.chunk.js.map",
+    "runtime-main.js": "/control-panel/static/js/runtime-main.af723abb.js",
+    "runtime-main.js.map": "/control-panel/static/js/runtime-main.af723abb.js.map",
+    "static/css/2.7f5b6dec.chunk.css": "/control-panel/static/css/2.7f5b6dec.chunk.css",
+    "static/js/2.ca89fbc5.chunk.js": "/control-panel/static/js/2.ca89fbc5.chunk.js",
+    "static/js/2.ca89fbc5.chunk.js.map": "/control-panel/static/js/2.ca89fbc5.chunk.js.map",
+    "index.html": "/control-panel/index.html",
+    "precache-manifest.8e5775269f258aec1e39840dac6e8fc5.js": "/control-panel/precache-manifest.8e5775269f258aec1e39840dac6e8fc5.js",
+    "service-worker.js": "/control-panel/service-worker.js",
+    "static/css/2.7f5b6dec.chunk.css.map": "/control-panel/static/css/2.7f5b6dec.chunk.css.map",
+    "static/css/main.1c40ba27.chunk.css.map": "/control-panel/static/css/main.1c40ba27.chunk.css.map",
+    "static/js/2.ca89fbc5.chunk.js.LICENSE.txt": "/control-panel/static/js/2.ca89fbc5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4e611aee.js",
+    "static/js/runtime-main.af723abb.js",
     "static/css/2.7f5b6dec.chunk.css",
     "static/js/2.ca89fbc5.chunk.js",
     "static/css/main.1c40ba27.chunk.css",
-    "static/js/main.f1607b4a.chunk.js"
+    "static/js/main.b5890384.chunk.js"
   ]
 }
