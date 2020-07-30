@@ -1,25 +1,27 @@
 import React from 'react';
-import ReactDOM from 'react-dom'; 
-import App from './App';
+import ReactDOM from 'react-dom';  
 import * as serviceWorker from './serviceWorker';
 import { Route, BrowserRouter as Router } from 'react-router-dom';
 import ThermometerRender from './components/ThermometerRender';  
-import Navbar from './components/Navbar'; 
+import Navbar from './components/Navbar';  
+import Section from './components/Section';
 import "bootswatch/dist/darkly/bootstrap.min.css";
-import BrowserRouter from 'react-router-dom/BrowserRouter';
 
-const routing = (
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
- <Router>
-    <div>
-      <Route path="/" component={Navbar} />
-      <Route path="/" component={App} />
-          <Route path="/thermometer" component={ThermometerRender} /> 
-    </div>
-  </Router>
-  </BrowserRouter>
-)
-ReactDOM.render(routing, document.getElementById('root'))
+class App extends React.Component { 
+  render() { 
+    return ( 
+    <Router> 
+       {/* <Switch>   */}
+        <Route path="/" component={Navbar} />
+        <Route path="/thermometer" component={ThermometerRender} /> 
+        <Route path="/section" component={Section} />
+        {/* </Switch>  */}
+    </Router>
+    )};
+}
+
+
+ReactDOM.render(<App />, document.getElementById('root'))
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

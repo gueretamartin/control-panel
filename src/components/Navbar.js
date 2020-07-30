@@ -10,13 +10,13 @@ const Navbar  =  () => {
                         <span className="navbar-toggler-icon"></span>
                     </button> 
                     <div className="collapse navbar-collapse" id="navbarColor02">
-                        <ul className="navbar-nav mr-auto">
-                        <li className="nav-item">
-                        <Link className="nav-link" to="/home">Home</Link>
-                        </li>
+                        <ul className="navbar-nav mr-auto"> 
                         <li className="nav-item">
                           <Link className="nav-link" to ="/thermometer">Thermometer</Link>
                         </li> 
+                        <li className="nav-item">
+                        <Link className="nav-link" to="/section">Measuring</Link>
+                        </li>
                         </ul>
                         <form className="form-inline my-2 my-lg-0">
                         <input className="form-control mr-sm-2" type="text" placeholder="Search" />
