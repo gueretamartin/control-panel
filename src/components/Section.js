@@ -3,7 +3,7 @@ import Table from "./Table";
 import ThermometerRender from "./ThermometerRender";
 import Formulario from "./Formulario";
 
-const Section = (props) => {
+export default function Section() {
   const [data, setData] = useState([]);
 
   function eliminar(index) {
@@ -23,16 +23,15 @@ const Section = (props) => {
       <div className="row justify-content-center" style={{marginTop:'50px'}}>
       <div className="col-lg-6" style={{margin:'10px'}}>
       <ThermometerRender handle={handleSubmit} /> 
-      </div>
-     
+      </div> 
       <div className="jumbotron" style={{margin:'10px'}}>
         <div className="row justify-content-center " > 
       <h3>Logs</h3>
       <Table datos={data} eliminar={eliminar} />    
       </div>
-      </div></div>
+      </div></div> 
     </section>
   );
 };
 
-export default Section;
+// export default Section;
